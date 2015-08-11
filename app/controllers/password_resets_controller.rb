@@ -27,7 +27,7 @@ class PasswordResetsController < ApplicationController
           flash[:danger] = "Password reset has expired."
           redirect_to new_password_reset_url
       elsif(params[:user][:password].blank?)
-         flash.now[:danger] = "Password/confrimation can't be blank"
+         flash.now[:danger] = "Password can't be blank"
          render 'edit'
       elsif @user.update_attributes(user_params)
           log_in @user
