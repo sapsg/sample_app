@@ -1,0 +1,15 @@
+one:
+  follower: sapna
+  followed: lana
+
+two:
+  follower: sapna
+  followed: mallory
+
+three:
+  follower: lana
+  followed: sapna
+
+four:
+  follower: archer
+  followed: sapna
